@@ -4,6 +4,33 @@
   <artifactId>configcore</artifactId>
   <version>2.0.0</version>
   
+  <name>Config Core</name>
+  <description>Simply library to create local configuration files using Json.</description>
+  <url>https://github.com/rillis/config-core/</url>
+  
+  <licenses>
+	  <license>
+	    <name>The Apache License, Version 2.0</name>
+	    <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+	  </license>
+	</licenses>
+
+<developers>
+    <developer>
+      <name>Rillis Vernucio</name>
+      <email>rillisnelson@gmail.com</email>
+      <organization>Argon Inc</organization>
+      <organizationUrl>https://github.com/argoninc</organizationUrl>
+    </developer>
+  </developers>
+  
+  <scm>
+  <connection>scm:git:git://github.com/rillis/config-core.git</connection>
+  <developerConnection>scm:git:ssh://github.com:rillis/config-core.git</developerConnection>
+  <url>http://github.com/rillis/config-core/tree/master</url>
+</scm>
+  
+  
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -15,7 +42,7 @@
 	    <version>20190722</version>
 	</dependency>
   </dependencies>
-  
+
   <build>
 	<finalName>${project.artifactId}</finalName>
     <plugins>
