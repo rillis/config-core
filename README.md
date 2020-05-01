@@ -1,5 +1,7 @@
 # Config API  
 
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore)
+
 ```xml
 <dependency>
   <groupId>com.github.rillis</groupId>
