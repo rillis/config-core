@@ -13,7 +13,7 @@
 **Constructors:**  
 ```java
 Config(String folder, String archive) -> %APPDATA%\folder\archive  
-Config(String archive) -> %APPDATA%\Rillis\archive  
+Config(String archive) -> %APPDATA%\ConfigCore\archive  
 ```
   
 **Methods:**  

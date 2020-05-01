@@ -21,7 +21,7 @@ public class Config {
 		initArchive();
 	}
 	public Config(String archive) {
-		this.archive = new File(System.getenv("APPDATA")+"\\Rillis\\"+archive);
+		this.archive = new File(System.getenv("APPDATA")+"\\ConfigCore\\"+archive);
 		initArchive();
 	}
 	
