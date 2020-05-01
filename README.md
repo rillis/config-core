@@ -1,6 +1,12 @@
-# Config API
+# Config API  
 
-Download: [click here](https://github.com/rillis/ConfigCore/releases/latest)
+```xml
+<dependency>
+  <groupId>com.github.rillis</groupId>
+  <artifactId>configcore</artifactId>
+  <version>2.0.0</version>
+</dependency>
+```
 
 ## Docs
 
