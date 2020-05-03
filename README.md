@@ -1,8 +1,9 @@
 # Config API  
 
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore)
-
+![Maven](https://img.shields.io/maven-central/v/com.github.rillis/configcore)
 ![Release](https://img.shields.io/github/v/release/rillis/config-core)
+![License](https://img.shields.io/github/license/rillis/config-core)
+
 
 ```xml
 <dependency>
