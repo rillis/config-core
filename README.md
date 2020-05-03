@@ -1,7 +1,6 @@
 # Config API  
 
 ![Maven](https://img.shields.io/maven-central/v/com.github.rillis/configcore)
-![Release](https://img.shields.io/github/v/release/rillis/config-core)
 ![License](https://img.shields.io/github/license/rillis/config-core)
 
 
