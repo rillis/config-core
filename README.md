@@ -2,11 +2,13 @@
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.github.rillis/configcore)
 
+![Release](https://img.shields.io/github/v/release/rillis/config-core)
+
 ```xml
 <dependency>
   <groupId>com.github.rillis</groupId>
   <artifactId>configcore</artifactId>
-  <version>2.0.1</version>
+  <version>2.0.2</version>
 </dependency>
 ```
 
