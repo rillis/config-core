@@ -8,7 +8,7 @@
 <dependency>
   <groupId>com.github.rillis</groupId>
   <artifactId>configcore</artifactId>
-  <version>2.0.2</version>
+  <version>2.1.2</version>
 </dependency>
 ```
 
@@ -17,7 +17,8 @@
 **Constructors:**  
 ```java
 Config(String folder, String archive) -> %APPDATA%\folder\archive  
-Config(String archive) -> %APPDATA%\ConfigCore\archive  
+Config(String archive) -> %APPDATA%\ConfigCore\archive
+Config(File archive) -> Any path. 
 ```
   
 **Methods:**  

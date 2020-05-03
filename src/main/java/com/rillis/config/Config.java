@@ -16,6 +16,10 @@ public class Config {
 	private File archive = null;
 	private JSONObject base = null;
 	
+	public Config(File archive) {
+		this.archive = archive;
+		initArchive();
+	}	
 	public Config(String folder, String archive) {
 		this.archive = new File(System.getenv("APPDATA")+"\\"+folder+"\\"+archive);
 		initArchive();
