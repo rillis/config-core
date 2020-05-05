@@ -30,6 +30,8 @@ public class Config {
 	}
 	
 	private void initArchive() {
+		archive = new File(archive.getParent()+"\\"+replaceIlleggal(archive.getName()));
+		System.out.println(archive.getPath());
 		if(!archive.getParentFile().exists()) {
 			archive.mkdirs();
 		}		
@@ -47,10 +49,12 @@ public class Config {
 	}
 	
 	public Object get(String key) {
+		key = replaceIlleggal(key);
 		return base.get(key);
 	}
 	
 	public void set(String key, Object value) {
+		key = replaceIlleggal(key);
 		base.put(key, value);
 		write(base);
 	}
@@ -60,10 +64,12 @@ public class Config {
 	}
 	
 	public boolean has(String key) {
+		key = replaceIlleggal(key);
 		return base.has(key);
 	}
 	
 	public void remove(String key) {
+		key = replaceIlleggal(key);
 		base.remove(key);
 		write(base);
 	}
@@ -102,5 +108,9 @@ public class Config {
 		}
 	 
 	    return new JSONObject(content);
+	}
+	
+	private String replaceIlleggal(String str) {
+		return str.replaceAll("[^a-zA-Z0-9\\.\\-#$%@&]", "_").replaceAll(" ","_");
 	}
 }
